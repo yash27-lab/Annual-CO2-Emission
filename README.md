@@ -21,12 +21,15 @@ A machine learning-based system for predicting annual CO2 emissions across diffe
 - Random Forest: R² Score: 0.85
 
 ## Project Structure
+## Project Structure
+```bash
 project/
 ├── lambda_function.py
 ├── inference.py
 ├── model.pkl
 ├── requirements.txt
-└── layer_dependencies/
+└── layer_dependencies/ 
+
 ## Future Improvements
 - AWS SageMaker migration
 - Automated retraining pipeline
